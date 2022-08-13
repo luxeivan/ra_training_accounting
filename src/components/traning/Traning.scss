@@ -1,0 +1,82 @@
+.traning {
+    &__form {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    &__data-area {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    &__data-input {
+        padding: 10px;
+        margin-top: 5px;
+    }
+    &__passed-area {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    &__passed-input {
+        padding: 10px;
+        margin-top: 5px;
+    }
+    &__button-area {
+        
+    }
+    &__button {
+        padding: 10px;
+        margin: 10px;
+        background-color: #fff;
+        &:hover{
+            background-color: rgb(255, 0, 0);
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+    &__list-title {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        font-weight: 700;
+    }
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid gray;
+        border-radius: 20px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-around;
+        flex-basis: 1;
+    }
+    &__date {
+    }
+    &__passed {
+        width: 40px;
+    }
+    &__button-group {
+        display: flex;
+    }
+    &__del-button {
+        font-weight: 700;
+        &:hover {
+            cursor: pointer;
+            color: red;
+        }
+    }
+    &__change-button {
+        margin-right: 10px;
+        font-weight: 700;
+        &:hover {
+            cursor: pointer;
+            color: red;
+        }
+    }
+}
